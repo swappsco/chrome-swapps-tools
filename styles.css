@@ -1,0 +1,39 @@
+.swapps-link-box {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 0;
+}
+
+.swapps-link-box a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  color: #fff;
+}
+
+/* IDK (Swapps) Button */
+.swapps-link-box a[href*="swapps.com"] {
+  background-color: #1D72B8;
+}
+
+.swapps-link-box a[href*="swapps.com"]:hover {
+  background-color: #145a96;
+}
+
+/* Toggl Button */
+.swapps-link-box a[href*="toggl.com"] {
+  background-color: #CB4C9C;
+}
+
+.swapps-link-box a[href*="toggl.com"]:hover {
+  background-color: #a93e82;
+}

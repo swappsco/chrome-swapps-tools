@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Swapps Tools",
+  "version": "1.0",
+  "description": "Provides a link to the corresponding Swapps task when viewing a ClickUp task.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://app.clickup.com/t/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
+
