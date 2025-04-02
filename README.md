@@ -1,7 +1,7 @@
 # 🔗 ClickUp to IDK & Toggl Shortcut
 
 A lightweight Chrome extension that adds quick links to open a ClickUp task in:
-- ✅ [IDK Task Detail](https://app.swapps.com/services/task/detail/)
+- ✅ [IDK Task Detail](https://app.swapps.com/time-management/)
 - ⏱️ [Toggl Time Report](https://track.toggl.com/reports/detailed/)
 
 ---
